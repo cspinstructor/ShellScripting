@@ -1,0 +1,5 @@
+#!/bin/sh
+echo Stopping $1
+kill -9 $(ps ax | grep $1 | awk '{print $1}')
+
+

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo 'Name 3 cars do you like? '
+read car1 car2 car3
+echo Your fist car: $car1
+echo Your secod car: $car2
+echo Your 3rd car: $car3

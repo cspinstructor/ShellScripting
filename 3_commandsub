@@ -1,0 +1,3 @@
+#!/bin/sh
+count=$(ls | wc -l)
+echo 'Number of files in directory: ' $count

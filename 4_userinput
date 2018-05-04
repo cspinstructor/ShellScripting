@@ -1,0 +1,4 @@
+#!/bin/sh
+echo 'enter your first name:'
+read firstname second
+echo 'Hello: ' $firstname $second

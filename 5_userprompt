@@ -1,0 +1,4 @@
+#!/bin/sh
+read -p "First name: " firstname
+read -p "First secondname: " secondname
+echo 'Hello ' $firstname $secondname

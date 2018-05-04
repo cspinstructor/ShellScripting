@@ -1,0 +1,4 @@
+#!/bin/bash
+read -sp 'Password: ' password
+echo ' '
+echo 'Your password: ' $password
